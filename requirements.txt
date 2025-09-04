@@ -1,0 +1,8 @@
+opencv-python
+pytesseract
+layoutparser
+torch
+torchvision
+# Optional: detectron2 is required by LayoutParser's Detectron2LayoutModel
+# detectron2; install per your CUDA / CPU environment following: https://detectron2.readthedocs.io/
+easyocr  # Optional fallback OCR (may require torch). If not installed, script will still run with pytesseract only.
