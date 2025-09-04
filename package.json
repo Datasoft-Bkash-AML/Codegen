@@ -1,0 +1,16 @@
+{
+  "name": "codegen-playwright",
+  "version": "1.0.0",
+  "description": "Node.js project with Playwright for E2E testing, cloud deployment ready.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+  "codegen": "xvfb-run npx playwright codegen",
+  "codegen:spinner": "node codegen-with-spinner.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
